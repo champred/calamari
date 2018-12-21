@@ -1,0 +1,53 @@
+.upload_forms dl dt {
+	position: relative;
+	left: 0;
+	top: 1.1em;
+	width: 180px;
+	font-weight: bold;
+	vertical-align: middle; /* I guess this isn't how you do it.. */
+}
+
+.upload_forms dl dd {
+	border-left: 2px solid #242424;
+	margin: 0 0 0 200px;
+	padding: 0 0 10px 10px;
+}
+
+yui-nav ul .selected { /* This doesn't work of course. */
+	background-color: #303030;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+#error_container {
+	text-align: center;
+	border: 1px solid red;
+	margin: 5px;
+	padding: 5px;
+	width: 400px;
+}
+
+.container {
+	border: 1px solid red;
+	margin-bottom: 20px;
+	padding: 5px;
+	width: 400px;
+}
+div.container p {
+	margin: 0px;
+	padding: 0px;
+}
+div.container { display: none }
+.container label.error {
+	display: inline;
+	color: red;
+}
+label.error {
+	display: block;
+	margin-left: 1em;
+	width: auto;
+}
+
+.standard_fields { width: 300px; }

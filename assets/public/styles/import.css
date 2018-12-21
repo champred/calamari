@@ -1,0 +1,10 @@
+select, #xmlfile {
+margin-bottom: 20px;
+}
+p {
+padding: 5px;
+}
+#importcontent {
+	margin: 0px;
+	padding:0px;
+}

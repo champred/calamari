@@ -1,0 +1,101 @@
+#headerContent {
+	margin-bottom: 12px;
+	background-color: #2c2c2c;
+	padding: 5px 13px 5px 10px;
+	width: 905px;
+	color: #b1b1b1;
+}
+
+#headerContent a {
+    color: #ebeeff;
+}
+
+#headerContent a:hover {
+    color: #dde0ef;
+}
+
+#headerContentLeft {
+	padding-top: 0px;
+}
+
+#headerContentRight {
+	float: right;
+}
+
+.achievement {
+	margin-bottom: 10px;
+}
+
+.achieveImgHolder {
+	float: left;
+	width: 64px;
+	height: 64px;
+	padding: 1px 9px 1px 0px;
+}
+
+.achieveTxtHolder {
+	background-color: #252525;
+	float: left;
+	position: relative;
+	width: 850px;
+	height: 66px;
+	padding: 0px;
+}
+
+.achieveFill {
+	background-color: #484848;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 62px;
+	z-index: 10;
+}
+
+.achieveFillCover {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 850px;
+	height: 62px;
+	z-index: 20;
+}
+
+.achieveSurround {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 850px;
+	height: 66px;
+	z-index: 30;
+}
+
+.achieveTxt {
+	position: absolute;
+	top: 17px;
+	left: 6px;
+	z-index: 40;
+}
+
+.achievePercent {
+	position: absolute;
+	top: 27px;
+	left: 780px;
+	font-family: arial, helvetica, sans-serif;
+	color: #e1e1e1;
+	font-size: 11px;
+	z-index: 40;
+}
+
+.achieveTxt .achName {
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	color: #e1e1e1;
+}
+
+.achieveTxt .achDesc {
+	font-weight: normal;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #bfbfbf;
+}

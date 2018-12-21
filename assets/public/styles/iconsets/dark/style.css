@@ -1,0 +1,130 @@
+.stext {
+display: none;
+}
+.unread {
+background: url('iconsets/dark/com.png') -2px -129px no-repeat;
+height: 11px;
+width: 11px;
+display: inline-block;
+}
+.read {
+background: url('iconsets/dark/com.png') -2px -150px no-repeat;
+height: 11px;
+width: 11px;
+display: inline-block;
+}
+.unread-posted {
+background: url('iconsets/dark/com.png') -2px -254px no-repeat;
+height: 12px;
+width: 13px;
+display: inline-block;
+}
+.read-posted {
+background: url('iconsets/dark/com.png') -2px -275px no-repeat;
+height: 12px;
+width: 13px;
+display: inline-block;
+}
+.locked {
+background: url('iconsets/dark/com.png') -1px -169px no-repeat;
+height: 14px;
+width: 12px;
+display: inline-block;
+float: left;
+margin-right: 5px;
+}
+.sticky {
+background: url('iconsets/dark/com.png') -1px -190px no-repeat;
+height: 14px;
+width: 14px;
+display: inline-block;
+float: left;
+margin-right: 5px;
+}
+.go-last-read {
+background: url('iconsets/dark/com.png') -2px -211px no-repeat;
+height: 12px;
+width: 14px;
+}
+.com-edit {
+background: url('iconsets/dark/com.png') 0px 0px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-quote {
+background: url('iconsets/dark/com.png') 0px -21px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-pm {
+background: url('iconsets/dark/com.png') 0px -42px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-add-friend {
+background: url('iconsets/dark/com.png') 0px -64px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-report {
+background: url('iconsets/dark/com.png') 0px -84px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-delete {
+background: url('iconsets/dark/com.png') 0px -105px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+.com-revert {
+background: url('iconsets/dark/com.png') 0px -229px no-repeat;
+height: 16px;
+width: 16px;
+display: inline-block;
+}
+#menu .dropit {
+background: url('iconsets/dark/menus.png') center -1px no-repeat;
+width: 14px;
+height: 12px;
+margin: 0 auto;
+vertical-align: middle;
+display: inline-block;
+}
+#userinfo .dropit {
+background: url('iconsets/dark/menus.png') center -19px no-repeat;
+width: 10px;
+height: 10px;
+margin: 0;
+vertical-align: middle;
+display: inline-block;
+}
+#menu .dropit:hover {
+background: url('iconsets/dark/menus.png') center -33px no-repeat;
+}
+#userinfo .dropit:hover {
+background: url('iconsets/dark/menus.png') center -51px no-repeat;
+}
+.triangle-down-md {
+background: url('iconsets/dark/triangles.png') center -6px no-repeat;
+width: 12px;
+height: 8px;
+display: inline-block;
+}
+.triangle-right-md {
+background: url('iconsets/dark/triangles.png') center -24px no-repeat;
+width: 8px;
+height: 12px;
+display: inline-block;
+}
+.triangle-up-md {
+background: url('iconsets/dark/triangles.png') center -46px no-repeat;
+width: 12px;
+height: 8px;
+display: inline-block;
+}

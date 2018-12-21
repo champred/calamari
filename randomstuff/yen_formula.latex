@@ -1,0 +1,13 @@
+f_{s}(size)\begin{cases}0.1& {size} < 10MB\\\sqrt{\frac{size}{1GB}}&10MB \leq size\end{cases}
+
+\\
+
+f_{u}(time,age) = (1\times{\frac{time}{1\space{year}\displaystyle }}+2) \times (2-\frac{1}{1+e^{5-\frac{age}{20\space{days}}}})
+
+\\
+
+f_{t}(seeds) = \begin{cases}\frac{1}{2} & seeds \leq 3\\\frac{\sqrt{seeds+4}}{3} & seeds > 3\end{cases}
+
+\\
+
+yen/h = \frac{f_{s}(TorrentSize)\times{f}_{u}(SeedTime,UserAge)}{4\times{f}_{t}(TorrentSeeds)}

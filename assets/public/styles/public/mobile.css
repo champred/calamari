@@ -1,0 +1,47 @@
+/**
+Mobile styles for public pages (non-error)
+ */
+
+body {
+    font-size: 14px;
+}
+
+#inner {
+    width: inherit;
+    left: inherit;
+    position: inherit;
+    box-sizing: border-box;
+}
+
+#outer {
+    position: initial;
+}
+
+dd {
+    width: 100%;
+    min-width: 100%;
+}
+
+dt {
+    width: 100%;
+}
+
+dt label {
+    width: 100%;
+}
+
+.inputtext {
+    width: 100%;
+}
+
+#captcha_img {
+    max-width: 100%;
+}
+
+/* Registration */
+
+.wrapper {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}

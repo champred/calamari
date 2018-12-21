@@ -1,0 +1,62 @@
+.avatar {
+    /* Some margin/padding to hide the fade-out with avatars that are <=(150|100|70)px */
+	padding-bottom: 10.5px;
+	margin-bottom: -6px !important;
+	max-height: 150px;
+}
+.avatar_c {
+	padding-bottom: 9px;
+	margin-bottom: -6px;
+	max-height: 100px;
+}
+.friendslist > dt {
+	padding-bottom: 6px;
+	margin-bottom: -4px;
+	max-height: 70px;
+	height: auto;
+	margin-top: 0;
+}
+.friendslist img {
+	margin-top: 0;
+}
+.avatar, .avatar_c, .friendslist > dt {
+	mask: url("/static/common/avatars/masking.svg#mask");
+	-webkit-mask: url("/static/common/avatars/masking.svg") top left / cover;
+	overflow: hidden;
+	-webkit-transition: max-height 0.6s, padding-bottom 0.4s, margin-bottom 0.4s;
+	-moz-transition: max-height 0.6s, padding-bottom 0.4s, margin-bottom 0.4s;
+	transition: max-height 0.6s, padding-bottom 0.4s, margin-bottom 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0, 1.1, 1, 0.8);
+	-moz-transition-timing-function: cubic-bezier(0, 1.1, 1, 0.8);
+	transition-timing-function: cubic-bezier(0, 1.1, 1, 0.8);
+}
+.avatar:hover {
+	max-height: 450px;
+}
+.avatar_c:hover {
+	max-height: 300px;
+}
+.friendslist > dt:hover {
+	max-height: 210px;
+}
+.avatar:hover, .avatar_c:hover, .friendslist > dt:hover {
+	-webkit-transition: max-height 0.4s, padding-bottom 0.2s, margin-bottom 0.2s;
+	-moz-transition: max-height 0.4s, padding-bottom 0.2s, margin-bottom 0.2s;
+	transition: max-height 0.4s, padding-bottom 0.2s, margin-bottom 0.2s;
+	-webkit-transition-timing-function: cubic-bezier(0, 1.05, 1);
+	-moz-transition-timing-function: cubic-bezier(0, 1.05, 1);
+	transition-timing-function: cubic-bezier(0, 1.05, 1);
+}
+/* Increase the margin/padding to hide away the fade-out at the bottom */
+.avatar:hover {
+	padding-bottom: calc(20% + 10.5px);
+	margin-bottom: calc(-20% - 6px) !important;
+}
+.avatar_c:hover {
+	padding-bottom: calc(20% + 9px);
+	margin-bottom: calc(-20% - 6px) !important;
+}
+.friendslist > dt:hover {
+	padding-bottom: calc(20% + 6px);
+	margin-bottom: calc(-20% - 4px) !important;
+}

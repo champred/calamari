@@ -1,0 +1,38 @@
+.friend-container {
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    position: relative;
+}
+.friend-container > div {
+    max-width: 85%;
+}
+.friend-container div {
+    max-height: 200px;
+    margin: 5px;
+}
+.top-right-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}
+.top-right-controls button{
+    border: none;
+    cursor: pointer;
+}
+.friend-property-container {
+    float: left;
+}
+.friend-property {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+.friend-text-area {
+    display: block;
+    margin: 5px 0;
+}
+form {
+    display: inline;
+}

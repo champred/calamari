@@ -1,0 +1,14 @@
+.expandable:hover td {
+    background-color: #f3f3f9;
+}
+.expandrow, .expandrow > td {
+    padding: 0;
+    border: none;
+}
+.expandrow table {
+    border: none;
+    margin: 0;
+}
+td.label {
+    min-width: 120px;
+}

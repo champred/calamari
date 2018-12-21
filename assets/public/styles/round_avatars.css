@@ -1,0 +1,47 @@
+.avatar {
+	max-height: 150px;
+}
+.avatar_c {
+	max-height: 100px;
+}
+.friendslist > dt {
+	min-height: 70px;
+	max-height: 70px;
+	height: auto;
+	padding: 0;
+	margin-top: 0;
+}
+.friendslist img {
+	margin-top: 0px;
+}
+.avatar, .avatar_c, .friendslist > dt {
+	overflow: hidden;
+	border-radius: 75px;
+	-webkit-transition: max-height 0.4s, border-radius 0.2s;
+	-moz-transition: max-height 0.4s, border-radius 0.2s;
+	transition: max-height 0.4s, border-radius 0.2s;
+	-webkit-transition-timing-function: cubic-bezier(0, 1.1, 1, 0.9);
+	-moz-transition-timing-function: cubic-bezier(0, 1.1, 1, 0.9);
+	transition-timing-function: cubic-bezier(0, 1.1, 1, 0.9);
+}
+.avatar:hover {
+	max-height: 450px;
+}
+.avatar_c:hover {
+	max-height: 300px;
+}
+.friendslist > dt:hover {
+	max-height: 210px;
+}
+.avatar:hover, .avatar_c:hover, .friendslist > dt:hover {
+	border-radius: 0;
+	-webkit-transition: max-height 0.3s, border-radius 0.2s;
+	-moz-transition: max-height 0.3s, border-radius 0.2s;
+	transition: max-height 0.3s, border-radius 0.2s;
+	-webkit-transition-timing-function: cubic-bezier(0, 1.05, 1);
+	-moz-transition-timing-function: cubic-bezier(0, 1.05, 1);
+	transition-timing-function: cubic-bezier(0, 1.05, 1);
+	-webkit-transition-delay: 250ms;
+	-moz-transition-delay: 250ms;
+	transition-delay: 250ms;
+}

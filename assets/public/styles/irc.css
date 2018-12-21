@@ -1,0 +1,10 @@
+.checkbox {
+	display: inline-block;
+	line-height: 1.27em;
+	width: 1.5em;
+	background: url('/static/common/symbols/checkbox.png') top left no-repeat;
+	background-size: contain;
+}
+.checkbox.checked {
+	background-image: url('/static/common/symbols/checkedbox.png');
+}

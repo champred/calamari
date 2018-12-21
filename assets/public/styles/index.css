@@ -1,0 +1,82 @@
+.clearcont {
+	width: 100%;
+	min-width: 940px;
+	overflow: hidden;
+}
+.fpleft {
+	width: 700px;
+}
+.fpright {
+	width: 220px;
+}
+.fpleft, .fpright {
+	overflow: hidden;
+	overflow-x: hidden;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.aot {
+	box-sizing: border-box;
+	float: none;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.aot img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.aot_cont, .fpoll, .fstats {
+	margin-bottom: 20px;
+}
+.aot>.box {
+	margin: 0;
+	border-bottom: none;
+}
+.bull {
+	margin-right: 5px;
+}
+.news_entry {
+	padding: 26px 0;
+	border-bottom: 1px solid #ccc;
+}
+.news_entry:first-child {
+	padding-top: 0;
+}
+.news_entry:last-child {
+	border-bottom: none;
+}
+.news_head {
+	margin-bottom: 1em;
+}
+.news_meta {
+	margin-top: 2em;
+}
+.news_comments {
+	margin-bottom: 20px;
+}
+.past_news {
+	margin-top: 16px;
+	padding: 0;
+}
+.past_news li {
+	padding: 10px 0;
+}
+.fpoll_inner, .fstats_inner {
+	padding: 10px;
+}
+.fpoll_inner, .fstats_inner {
+	font-size: 10px;
+}
+.fstats_inner h4 {
+	font-size: 11px;
+}
+.fstats_inner ul {
+	padding: 0;
+	margin-bottom: 10px;
+}

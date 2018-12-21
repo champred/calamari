@@ -1,0 +1,56 @@
+#cover-slider{
+overflow: hidden;
+margin: 0px auto 0 auto;
+width: 650px;
+}
+#rutCarousel {
+	height: 120px;
+	overflow: hidden;
+}
+.slider{
+width: 500px;
+float: left;
+overflow: hidden;
+}
+.slider li{
+width: 80px;
+height: 100px;
+margin: 0 5px;
+}
+.slider ul{ margin: 10px 0 0 0; }
+.slider a{
+width: 100%;
+height: 100%;
+display: block;
+position: relative;
+text-decoration: none;
+overflow: hidden;
+}
+.slider img {
+	width: 100%;
+	height: 100%;
+}
+.slider a:hover .caption {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+}
+.caption {
+display: none;
+background: rgba(0,0,0,0.7);
+color: #fff;
+font-weight: bold;
+padding: 5px;
+width: 100%;
+height: 100%;
+font-size: .85em;
+position: absolute;
+top: 0;
+left: 0;
+}
+.placeholder{display:block;height:100px}
+/*.placeholder.music{height:80px}*/
+
+.prev{float: left;width: 40px; margin-right: 8px;}
+.next{float:left;width:40px; margin-left: 8px}

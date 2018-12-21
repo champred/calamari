@@ -1,0 +1,205 @@
+/* structure */
+#browse_nav_top, #browse_nav_bottom,.group_cont {
+	width: 940px;
+	overflow: hidden;
+	min-width: 800px;
+}
+
+#browse_nav_top {
+	margin: 5px auto;
+}
+
+#browse_nav_top h2 {
+	padding: 0;
+	margin: 0;
+}
+
+#browse_nav_top_left{
+	float: left;
+	width: 40%;
+	text-align: left;
+}
+
+#browse_nav_top_right {
+	margin: 0;
+}
+
+#browse_nav_tags {
+	text-align: center;
+	margin: 20px;
+	padding: 5px;
+}
+
+#browse_search {
+	width: 750px; 
+	margin: 0px auto;
+}
+
+#browse_nav_sections {
+	float: right;
+	text-align: right;
+	width: 40%;
+}
+
+#browse_nav_bottom {
+	margin: 0 0 30px 0;
+	width: 100%;
+}
+
+#browse_nav_left {
+	float: left;
+}
+
+#browse_nav_right {
+	float: right;
+	margin-left:300px;
+}
+
+#browse_result_count {
+	float: right;
+	font-size: medium;
+}
+
+#categories {
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+	list-style-type: none;
+}
+
+.group_cont {
+	margin: 0 auto 15px auto;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.group_img {
+    float: left;
+    width: 75px;
+	padding-top: 5px;
+}
+
+.mainimg {
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.mainimg img {
+	width: 75px;
+	display: block;
+	margin: 5px auto 0px auto;
+}
+
+.group_main {
+	padding: 5px 5px 0 15px;
+	margin: 0 205px 0 80px;
+}
+
+.group_title {
+	display: block;
+	margin-bottom: 0px;
+}
+
+.group_statbox {
+    float: right;
+    width: 180px;
+}
+
+.group_statbox ul {
+	padding: 5px;
+	margin: 0;
+	list-style-type: none;
+}
+
+.tags_sm {
+	display: block;
+	font-style: italic;
+	font-size: 90%;
+	margin: -10px 0 10px 0;
+}
+
+.torrent {
+	list-style-type: none;
+	padding: 0 0 0 8px;
+	margin: 10px 0 0 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.torrenttop {
+	border-left: none;
+}
+
+.torrent li {
+	display: block;
+	float: left;
+	margin: 0;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+.torrent_properties {
+	width: 70%;
+	max-width: 65%;
+	min-width: 72%;
+	margin-right: 5%;
+	text-align: left;
+}
+
+.torrent_snatched {
+	width: 6%;
+}
+.torrent_seeders {
+	width: 6%;
+}
+
+.torrent_leechers {
+	width: 6%;
+}
+
+.torrent_dl {
+	width: 6%;
+}
+
+.torrent_size {
+	width: 10%;
+	min-width: 10%;
+}
+
+.cat {
+	vertical-align: middle;
+}
+
+.hide {
+	display: none;
+}
+
+.tag_cloud {
+	padding: 7px;
+}
+
+.level_1 { font-size:x-small; }
+.level_2 { font-size:small; }
+.level_3 { font-size:medium; }
+.level_4 { font-size:large; }
+.level_5 { font-size:x-large; }
+
+dl {
+	text-align: left;
+}
+
+dl dt {
+	position: relative;
+	left: 0;
+	top: 1.1em;
+	width: 180px;
+	font-weight: bold;
+}
+
+dl dd {
+	margin: 0 0 0 200px;
+	padding: 0 0 10px 10px;
+}
+table
+{
+table-layout:fixed;
+}
