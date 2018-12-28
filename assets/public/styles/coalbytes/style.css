@@ -393,7 +393,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
 }
 
 #logo a:hover {
-    background: url('coalbytes/images/logo.svg') 0px -40px no-repeat;
+    opacity: 0.5;
 }
 
 #searchbars {

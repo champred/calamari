@@ -356,7 +356,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
     width: 100px;
     height: 20px;
     display: block;
-    background: url('coalbytes/images/logo.svg') 0px -0.1px no-repeat;
+    background: url('tentacletastic/images/logo.svg') 0px -0.1px no-repeat;
     z-index: 99;
     position: relative;
 }
@@ -370,7 +370,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
 }
 
 #logo a:hover {
-    background: url('coalbytes/images/logo.svg') 0px -40px no-repeat;
+    opacity: 0.5;
 }
 
 #searchbars {
@@ -597,7 +597,7 @@ tr.head td , tr.colhead td, tr.colhead_dark td {
 .head, .colhead_dark, tr.head td , tr.colhead td, tr.colhead_dark td, .up-control a, .down-control a {
     padding: 10px;
     border-bottom: 1px solid #cacaca;
-    background: #E6E6E6 url("tentacletastic/images/headbg.png") repeat-x top;
+    background: #E6E6E6 url("tentacletastic/images/headbg.svg") repeat-x top;
     -o-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
@@ -605,25 +605,6 @@ tr.head td , tr.colhead td, tr.colhead_dark td {
     *background: #E6E6E6;
     background: #E6E6E6\0/;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAFAFA', endColorstr='#E6E6E6',GradientType=0 );
-}
-
-@media all and (min-width: 0px) {
-    tr.head td , tr.colhead td, tr.colhead_dark td {
-        background: #E6E6E6 url("tentacletastic/images/headbg.svg");
-        background-image: -moz-linear-gradient(
-				top,
-				#ffffff,
-				#fafafa 6%,
-		#E6E6E6
-			);
-        background-image: -webkit-gradient(
-				linear,
-				left top, left bottom,
-				from(#ffffff),
-				to(#E6E6E6),
-		color-stop(0.06, #fafafa)
-			);
-    }
 }
 
 .forum_group_header  td {
