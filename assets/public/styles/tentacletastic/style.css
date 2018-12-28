@@ -341,7 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
 }
 
 #logo {
-    top: 10px;
+    top: 12px;
     width: 950px;
     height: 20px;
     display: block;
@@ -353,10 +353,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
 
 #logo a {
     border: none;
-    width: 95px;
+    width: 100px;
     height: 20px;
     display: block;
-    background: url('tentacletastic/images/logo.png') 0px 0px no-repeat;
+    background: url('coalbytes/images/logo.svg') 0px -0.1px no-repeat;
     z-index: 99;
     position: relative;
 }
@@ -370,7 +370,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40464F', end
 }
 
 #logo a:hover {
-    background: url('tentacletastic/images/logo.png') 0px -25px no-repeat;
+    background: url('coalbytes/images/logo.svg') 0px -40px no-repeat;
 }
 
 #searchbars {
