@@ -1223,17 +1223,17 @@ td.torrent_size span, td.torrent_snatched span, td.torrent_seeders span, td.torr
 }
 
 td.torrent_snatched span {
-    background: url('tentacletastic/images/snatched.png') left center no-repeat;
+    background: url('tentacletastic/images/snatched.svg') left center no-repeat;
     padding: 4px 0px 4px 18px;
 }
 
 td.torrent_seeders span {
-    background: url('tentacletastic/images/seeders.png') left center no-repeat;
+    background: url('tentacletastic/images/seeders.svg') left center no-repeat;
     padding: 4px 0px 4px 18px;
 }
 
 td.torrent_leechers span {
-    background: url('tentacletastic/images/leechers.png') left center no-repeat;
+    background: url('tentacletastic/images/leechers.svg') left center no-repeat;
     padding-left: 18px;
     padding: 4px 0px 4px 18px;
 }

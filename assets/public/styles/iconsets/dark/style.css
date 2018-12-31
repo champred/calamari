@@ -89,7 +89,7 @@ width: 16px;
 display: inline-block;
 }
 #menu .dropit {
-background: url('iconsets/dark/menus.png') center -1px no-repeat;
+background: url('iconsets/dark/menus.svg') center -1px no-repeat;
 width: 14px;
 height: 12px;
 margin: 0 auto;
@@ -97,7 +97,7 @@ vertical-align: middle;
 display: inline-block;
 }
 #userinfo .dropit {
-background: url('iconsets/dark/menus.png') center -19px no-repeat;
+background: url('iconsets/dark/menus.svg') center -19px no-repeat;
 width: 10px;
 height: 10px;
 margin: 0;
@@ -105,25 +105,25 @@ vertical-align: middle;
 display: inline-block;
 }
 #menu .dropit:hover {
-background: url('iconsets/dark/menus.png') center -33px no-repeat;
+background: url('iconsets/dark/menus.svg') center -33px no-repeat;
 }
 #userinfo .dropit:hover {
-background: url('iconsets/dark/menus.png') center -51px no-repeat;
+background: url('iconsets/dark/menus.svg') center -51px no-repeat;
 }
 .triangle-down-md {
-background: url('iconsets/dark/triangles.png') center -6px no-repeat;
+background: url('iconsets/dark/triangles.svg') center -6px no-repeat;
 width: 12px;
 height: 8px;
 display: inline-block;
 }
 .triangle-right-md {
-background: url('iconsets/dark/triangles.png') center -24px no-repeat;
+background: url('iconsets/dark/triangles.svg') center -24px no-repeat;
 width: 8px;
 height: 12px;
 display: inline-block;
 }
 .triangle-up-md {
-background: url('iconsets/dark/triangles.png') center -46px no-repeat;
+background: url('iconsets/dark/triangles.svg') center -46px no-repeat;
 width: 12px;
 height: 8px;
 display: inline-block;
