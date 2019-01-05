@@ -472,20 +472,23 @@ function toggleOption(type,form) {
 
 		case 'containers':
 			current_source = $j('#containers_' + form).val();
-			current_media = $j('#media').val();
 			if(current_source == 'ISO' || current_source == 'VOB IFO' || current_source == 'M2TS') {
 				$j('.region_' + form + '_dd').slideDown('fast');
 				$j('.aspectratio_' + form + '_dd').slideDown('fast');
-				if(current_media != 'DVD') {
-					$j('#region_' + form + '> option[value^="R"]').prop("disabled", true);
-					$j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", false);
-				} else {
-					$j('#region_' + form + '> option[value^="R"]').prop("disabled", false);
-					$j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", true);
-				}
 			} else {
 				$j('.region_' + form + '_dd').slideUp('fast');
 				$j('.aspectratio_' + form + '_dd').slideUp('fast');
+			}
+		break;
+			
+		case 'media':
+			current_media = $j('#media').val();
+			if(current_media != 'DVD') {
+				$j('#region_' + form + '> option[value^="R"]').prop("disabled", true);
+				$j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", false);
+			} else {
+				$j('#region_' + form + '> option[value^="R"]').prop("disabled", false);
+				$j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", true);
 			}
 		break;
 
