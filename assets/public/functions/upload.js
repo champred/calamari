@@ -481,6 +481,17 @@ function toggleOption(type,form) {
 			}
 		break;
 
+        case 'media':
+            current_media = $j('#media').val();
+            if(current_media != 'DVD') {
+                $j('#region_' + form + '> option[value^="R"]').prop("disabled", true);
+                $j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", false);
+            } else {
+                $j('#region_' + form + '> option[value^="R"]').prop("disabled", false);
+                $j('#region_' + form + '> option').not(':first, [value^="R"]').prop("disabled", true);
+            }
+        break;
+
 		case 'cdtype':
 			current_cdtype = $j('#cdtype').val();
 			if(current_cdtype == 'Soundtrack' || current_cdtype == 'Drama CD' || current_cdtype == 'Vocal CD' || current_cdtype == 'Image CD') {
